@@ -25,6 +25,9 @@
     let postView = new PostView(mainContentSelector,selector);
     let postController = new PostController(postView, requester, baseUrl, appKey);
 
+    let contactView = new PostView(mainContentSelector,selector);
+    let contactController = new PostController(postView, requester, baseUrl, appKey);
+
     initEventServices();
 
     onRoute("#/", function () {
@@ -63,6 +66,13 @@
         postController.showCreatePostPage(fullName, authService.isLoggedIn());
         // Show the new post page...
     });
+
+    onRoute('#/contactUs', function () {
+        let fullName = sessionStorage.getItem('fullName');
+        contactController.showContactPage(fullName, authService.isLoggedIn());
+        // Show the new post page...
+    });
+
 
     bindEventHandler('login', function (ev, data) {
         userController.login(data);
