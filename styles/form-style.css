@@ -23,7 +23,7 @@ form {
 .form-title {
     font: 18px Oswald;
     font-weight: 400;
-    color: #019c8c;
+    color: #666;
     padding: 0 5px 5px;
     text-align: center;
     margin-bottom: 15px;
@@ -42,13 +42,13 @@ input:focus {
     font: 12px Lato;
     font-weight: 100;
     outline: none;
-    border: 3px solid #06c0ab;
+    border: 3px solid #666;
 }
 
 button {
     font: 16px Lato;
     color: white;
-    background-color: #06c0ab;
+    background-color: #666;
     padding: 8px;
     margin-top: 15px;
     margin-bottom: 10px;
@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-    background-color: #565656;
+    background-color: #333;
 }
 
 .form-link {

@@ -3,6 +3,8 @@
 }
 
 .new-post-block {
+    margin-top: 20px;
+    border-bottom: 5px solid #666;
     background: #dadada;
     width: 60%;
     margin: 0 auto;
@@ -12,7 +14,7 @@
 }
 
 #editor-title {
-    color: white;
+    color: #666;
     font-weight: bold;
     text-transform: uppercase;
     font: 24px Lato-Black;
@@ -47,7 +49,7 @@
     font: 12px Lato;
     font-weight: 100;
     outline: none;
-    border: 3px solid #06c0ab;
+    border: 3px solid #666;
 }
 
 
